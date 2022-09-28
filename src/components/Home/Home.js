@@ -1,20 +1,32 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../../src/utilities/logo.png'; 
 import Activities from '../Activities/Activities';
+import Activity from '../Activity/Activity';
+import Cart from '../Cart/Cart';
 import './Home.css'; 
 const Home = () => {
       const [activities, setActivities] = useState([]); 
+      const [cart , setCart] = useState([]);
       useEffect(()=>{
          fetch('activities.json')
          .then(res => res.json())
          .then(data => setActivities(data)); 
       }, []); 
-      let total = 0; 
       const handleCart = (selectedActivity) => {
-            console.log(selectedActivity.time); 
-            total = selectedActivity.time + total;
-            console.log(selectedActivity) 
+         const exits = cart.find(item => item.name === selectedActivity.name);
+         let newCart = [];
+         if(!exits){
+            selectedActivity.quantity = 1;
+            newCart = [...cart, selectedActivity];
+         }else{
+            const rest = cart.filter(item => item.name !== exits.name); 
+            exits.quantity = exits.quantity + 1; 
+            newCart = [...rest, exits];
+         }
+         setCart(newCart);
       }
+      console.log(cart);
+      
    return (
       <div className='home'>
          <div className="activities-section">
@@ -25,7 +37,7 @@ const Home = () => {
                </main>
          </div>
          <div className="sidebar">
-               <h2>{total}</h2>
+              <Cart cart={cart}></Cart>
          </div>
       </div>
    );

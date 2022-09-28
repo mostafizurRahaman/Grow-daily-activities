@@ -7,7 +7,7 @@ const Activities = ({activities, handleCart}) => {
       <div className='activities'>
         {
          activities.map(activity => <Activity activity={activity} handleCart={handleCart} key={activity.name}></Activity>)
-        }
+        }   
       </div>
    );
 };
