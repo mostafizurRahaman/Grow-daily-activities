@@ -1,0 +1,12 @@
+.home{
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   gap: 40px;
+}
+.home .activities-section{
+   padding: 40px;
+}
+.logo{
+   width: 150px;
+   height: auto;
+}
