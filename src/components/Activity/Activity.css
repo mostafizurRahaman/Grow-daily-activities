@@ -1,0 +1,68 @@
+.activity{
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.374);
+   /* border: 1px solid #fff; */
+   height: 400px;
+   position: relative;
+   background: rgb(49, 49, 48);
+}
+.activity img{
+   width: 100%;
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   padding: 10px;
+   height: 180px;
+   border: 1px solid #fff;
+   margin-bottom: 10px;
+   
+}
+
+.activity-info{
+   padding: 10px;
+   text-transform: capitalize;
+}
+.activity-info h3{
+   text-transform: uppercase; 
+   text-align: center;
+   margin-bottom: 10px;
+}
+.activity-info h5{
+   text-transform: capitalize; 
+   text-align: center;
+   margin-bottom: 10px;
+   font-size: 16px;
+}
+
+.activity-btn{
+   background: rgb(248, 248, 248);
+   border: none;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   width:100%;
+   padding: 10px 20px;
+   position: absolute;
+   bottom: 0;
+   font-weight: bold;
+   transition: all 0.5s ease-in-out;
+   -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+}
+.activity-btn:hover{
+   font-weight: 500;
+   color: rgb(255, 255, 255);
+   background: rgb(243, 146, 1);
+   
+}
+.activity:hover{
+   background-color: black;
+}
+

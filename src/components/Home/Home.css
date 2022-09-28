@@ -1,12 +1,55 @@
 .home{
    display: grid;
    grid-template-columns: 3fr 1fr;
-   gap: 40px;
+   gap: 20px;
+   color: #fff;
 }
 .home .activities-section{
    padding: 40px;
+   
 }
 .logo{
-   width: 150px;
-   height: auto;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 2px;
 }
+.logo .orange-text{
+  background: orange;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.logo-bottom{
+   margin-top: 10px;   
+   text-transform: uppercase;
+   display:block;
+   padding-bottom:10px ;
+   text-align: center;
+   margin-top: 20px;
+}
+.logo-bottom::after{
+content: '';
+width: 200px;
+height: 5px;
+background: orange;
+display: block;
+margin: 15px auto 0px;
+}
+.home .sidebar{
+   background: rgb(49, 49, 48);
+   box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.8);
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   margin-top: 20px;
+   margin-right: 20px;
+
+}
+
