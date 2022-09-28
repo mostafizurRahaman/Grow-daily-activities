@@ -8,10 +8,15 @@ const Activity = ({activity, handleCart}) => {
           <div className='activity-info'>
             <img src={img} alt="" />
             <h3>{name}</h3>
-            <p>{details? details.slice(0, 60) : "details not added. "} ...read more</p>
-            <h5>time: {time} minutes.</h5>
+            <p style={{textAlign: "center"}}>{details? details.slice(0, 50) : "details not added. "} <span style={{color: "red", fontWeigh: "bold"}}>...read more</span></p>
+            <h5>time required: {time} minutes.</h5>
           </div>
-           <button className='activity-btn' onClick={()=>handleCart(activity)}>{buttonDetails}</button>
+           <button className='activity-btn' onClick={(e)=>{
+               handleCart(activity); 
+               e.target.classList.add('addButton');
+               e.target.innerText = 'Added'; 
+               e.target.parentElement.classList.add('selectedActivity');
+           }}>{buttonDetails}</button>
       </div>
    );
 };

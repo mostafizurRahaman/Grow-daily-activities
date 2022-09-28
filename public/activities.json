@@ -3,63 +3,63 @@
       "name": "Football",
       "time": 30,
       "img": "img/football.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "I play football every day for 30 minute. Football is played by a team of 11 players, and there are two teams playing against each other. The football is round in shape and is kicked by the players. "
    },
    {
       "name": "badminton",
       "time": 25,
       "img": "img/badmiton.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "Badminton is one of my favorite game. I play badminton every day for exercise and enjoy."
    },
    {
       "name": "Kabaddi",
       "time": 35,
       "img": "img/kabbadi.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "Kabaddi is a physical sport and I love playing it. It is an outdoor game that is played in an open field outside the house.It is an outdoor game that is played in an open field outside the house."
    },
    {
       "name": "chess",
       "time": 20,
       "img": "img/chess.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "Chess is one the most popular games . Chess is a board game for two players. ... It is played on a square board, made up of 64 smaller squares."
    },
    {
       "name": "Cricket",
       "time": 40,
       "img": "img/cricket.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "I play cricket every day for 40 minute. Cricket is the most popular game . I like to play cricket. "
    },
    {
       "name": "volleyball",
       "time": 45,
       "img": "img/volleyball.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "Volleyball is a team sport played with a ball and a net. There are teams on each side of the net. One team hits the ball over the net and into the other team's court "
    },
    {
       "name": "carom billiards",
       "time": 15,
       "img": "img/carrom.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "carrom is a tabletop game of Indian origin. The game is very popular in the Indian subcontinent, and is known by various names in different languages. "
    },
    {
       "name": "Hockey",
       "time": 40,
       "img": "img/hockey.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "Hockey is a fast, exciting sport played by two teams on a sheet of ice called a rink. Each team has six players on the ice, one goalie, two defense men, two wingers, and one center man. "
    },
    {
       "name": "Basketball",
       "time": 30,
       "img": "img/basketball.jpg",
-      "buttonDetails": "Add To Cart",
+      "buttonDetails": "Add To List",
       "details": "Basketball is a wonderful game that can be played by anyone. It is a great way to get exercise, and have fun at the same time. Basketball is a sport that is enjoyed by people of all ages."
    }
 ]

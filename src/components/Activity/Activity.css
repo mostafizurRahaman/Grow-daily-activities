@@ -62,7 +62,21 @@
    background: rgb(243, 146, 1);
    
 }
-.activity:hover{
-   background-color: black;
+
+
+.addButton{
+   background: rgb(255, 1, 1); 
+   color: white;
+   font-weight: bold;
+}
+.addButton:hover{
+   background: rgb(249, 1, 1); 
 }
 
+.selectedActivity{
+   background: rgba(255, 255, 255, 0.742);
+   color: black;
+}
+.selectedActivity img{
+   border:1px solid black;
+}
