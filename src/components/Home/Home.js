@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../../../src/utilities/logo.png'; 
+import { getLocalStorage, setLocalStorage } from '../../utilities/fakeDb';
 import Activities from '../Activities/Activities';
 import Cart from '../Cart/Cart';
 import Myself from '../Myself/Myself';
@@ -7,6 +7,7 @@ import './Home.css';
 const Home = () => {
       const [activities, setActivities] = useState([]); 
       const [cart , setCart] = useState([]);
+      const [breakTime , setBreakTime] = useState(0);
       useEffect(()=>{
          fetch('activities.json')
          .then(res => res.json())
@@ -25,8 +26,15 @@ const Home = () => {
          }
          setCart(newCart);
       }
-      console.log(cart);
-      
+      useEffect(()=>{
+         const saveBreak = getLocalStorage();
+         setBreakTime(saveBreak);
+      }, [])
+      const handleBreak = (breakTimeStr) => {
+         const breakTime = parseInt(breakTimeStr);
+         setBreakTime(breakTime);
+         setLocalStorage(breakTime);
+      };   
    return (
       <div className='home'>
          <div className="activities-section">
@@ -38,7 +46,7 @@ const Home = () => {
          </div>
          <div className="sidebar">
                <Myself></Myself>
-              <Cart cart={cart}></Cart>
+              <Cart cart={cart} handleBreak={handleBreak} breakTime={breakTime}></Cart>
          </div>
       </div>
    );

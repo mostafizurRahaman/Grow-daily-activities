@@ -1,16 +1,24 @@
-import React from 'react';
+import Breakdown from '../Breakdown/Breakdown';
+import './Cart.css'
 
-const Cart = ({cart}) => {
+const Cart = ({cart, handleBreak, breakTime}) => {
    let time = 0; 
    for(const activity of cart){
       time = time + activity.time * activity.quantity; 
    }
+
+   
    return (
-      <div>
+      <div className='cart'>
+         <Breakdown handleBreak={handleBreak}></Breakdown>
          <h3>Gaming Details: </h3>
-         <div>
-            <p><span>Gaming Time: </span> <span> {time} minutes</span></p>
+         <div className='total-time'>
+            <h5 className='timing-container'><span>Gaming Time: </span> <span> {time} minutes</span></h5>
          </div> 
+         <div className='break-time'>
+            <h5 className='breakDown-timeing-container'><span>Break Time: </span> <span> {breakTime} minutes</span></h5>
+         </div> 
+         
       </div>
    );
 };

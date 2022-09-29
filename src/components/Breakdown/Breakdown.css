@@ -1,0 +1,35 @@
+.breakDown-container{
+   background-color: rgb(255, 255, 255);
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   text-transform: lowercase;
+   display: grid;
+   grid-template-columns: repeat(4 , 1fr);
+   grid-gap: 10px;
+   justify-items: center;
+   align-items: center;
+   height: 100px;
+}
+.breakDown-container p{
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background:rgb(6, 6, 6);
+  color: rgb(253, 135, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  gap: 0;
+  line-height: 1em;
+  text-align: center;
+
+}
