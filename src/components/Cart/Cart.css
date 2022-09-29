@@ -1,6 +1,6 @@
 .cart{
    padding: 10px;
-   margin-top: 10px;
+   text-transform: capitalize;
 }
 .cart .total-time,.cart .break-time{
    background-color: rgb(60, 59, 59);
@@ -9,15 +9,18 @@
    -moz-border-radius: 15px;
    -ms-border-radius: 15px;
    -o-border-radius: 15px;
-   text-transform: lowercase;
+   text-transform: capitalize;
    display: grid;
    padding: 25px 20px;
    color: orange;
    border: 1px solid #fff;
-   margin-top: 20px;
-   
+   margin-top: 20px;   
 }
 
+.cart h3{
+   margin: 15px 0px;
+   text-align: center;
+}
 .timing-container, .breakDown-timeing-container{
    display: flex;
    justify-content: space-between; 

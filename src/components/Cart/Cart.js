@@ -1,4 +1,6 @@
 import Breakdown from '../Breakdown/Breakdown';
+import SuccessMessage from '../SuccesMessage/SuccessMessage';
+
 import './Cart.css'
 
 const Cart = ({cart, handleBreak, breakTime}) => {
@@ -18,6 +20,7 @@ const Cart = ({cart, handleBreak, breakTime}) => {
          <div className='break-time'>
             <h5 className='breakDown-timeing-container'><span>Break Time: </span> <span> {breakTime} minutes</span></h5>
          </div> 
+         <SuccessMessage></SuccessMessage>
          
       </div>
    );

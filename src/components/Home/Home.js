@@ -46,7 +46,7 @@ const Home = () => {
          </div>
          <div className="sidebar">
                <Myself></Myself>
-              <Cart cart={cart} handleBreak={handleBreak} breakTime={breakTime}></Cart>
+              <Cart cart={cart} handleBreak={handleBreak} breakTime={breakTime} ></Cart>
          </div>
       </div>
    );
