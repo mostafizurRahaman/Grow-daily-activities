@@ -2,7 +2,6 @@ import React from 'react';
 import './SuccessMessage.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Activities from '../Activities/Activities';
 const SuccessMessage = () => {
    const notify = () => toast.success( `Congratulations!!! You are 
    successfuly complete all Activities`, {

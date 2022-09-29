@@ -18,7 +18,7 @@ const Cart = ({cart, handleBreak, breakTime}) => {
             <h5 className='timing-container'><span>Gaming Time: </span> <span> {time} minutes</span></h5>
          </div> 
          <div className='break-time'>
-            <h5 className='breakDown-timeing-container'><span>Break Time: </span> <span> {breakTime} minutes</span></h5>
+            <h5 className='breakDown-timeing-container'><span>Break Time: </span> <span> {breakTime? breakTime : 0} minutes</span></h5>
          </div> 
          <SuccessMessage></SuccessMessage>
          
