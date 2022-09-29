@@ -1,0 +1,59 @@
+.author-info{
+   text-align: center;
+   padding: 10px;
+   text-transform: uppercase;
+   font-weight: 700;
+   color: orange;
+}
+.author-info h4{
+   color: red;
+}
+.author-image{
+   width: 75px;
+   height:75px;
+   border-radius:50% ;
+   -webkit-border-radius:50% ;
+   -moz-border-radius:50% ;
+   -ms-border-radius:50% ;
+   -o-border-radius:50% ;
+   margin: 0 auto;
+   display: block;
+   margin-top: 20px;
+}
+
+.author-details{
+   text-align: center;
+   margin-top: 10px; 
+}
+
+.skill-container{
+   display: grid;
+   grid-template-columns: repeat(2 , 1fr);
+   gap:10px;
+   text-align: center;
+   background: rgb(255, 255, 255);
+   padding: 15px;
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   color: #000;
+   margin-top:10px;
+}
+
+.health-container{
+   display: grid;
+   grid-template-columns: repeat(2 , 1fr);
+   gap:10px;
+   text-align: center;
+   background: rgb(255, 255, 255);
+   padding: 15px;
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   color: #000;
+   margin-top:10px;
+}

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import logo from '../../../src/utilities/logo.png'; 
 import Activities from '../Activities/Activities';
-import Activity from '../Activity/Activity';
 import Cart from '../Cart/Cart';
+import Myself from '../Myself/Myself';
 import './Home.css'; 
 const Home = () => {
       const [activities, setActivities] = useState([]); 
@@ -37,6 +37,7 @@ const Home = () => {
                </main>
          </div>
          <div className="sidebar">
+               <Myself></Myself>
               <Cart cart={cart}></Cart>
          </div>
       </div>
