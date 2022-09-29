@@ -1,0 +1,30 @@
+.question-container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.question-container h2{
+   text-decoration: capitalize;
+   margin: 10px 0px;
+   color: orange;
+}
+.question-container ul li{
+   font-size: 18px;
+   margin-bottom: 10px;
+   text-transform: capitalize;
+   font-weight: bold;
+   margin-left: 20px;
+}
+
+table {
+   width: 100%;
+   border: 1px solid red;
+   
+}
+td, tr{
+   border: 1px solid red;
+   padding: 10px 0px;
+   text-align: center;
+   text-transform: uppercase;
+   
+}
