@@ -11,7 +11,8 @@
    grid-gap: 10px;
    justify-items: center;
    align-items: center;
-   height: 100px;
+   font-size: 14px;
+   padding: 10px;
 }
 .breakDown-container p{
   width: 50px;
@@ -31,5 +32,14 @@
   gap: 0;
   line-height: 1em;
   text-align: center;
+ 
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .breakDown-container{
+    grid-template-columns: repeat(2 , 1fr);
+  }
+
 
 }

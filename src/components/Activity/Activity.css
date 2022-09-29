@@ -80,3 +80,16 @@
 .selectedActivity img{
    border:1px solid black;
 }
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+   .activity{
+      height: 450px;
+      
+   }
+}
+@media screen and (min-width: 0px) and (max-width: 599px) {
+   .activity{
+      width: 98%;
+      
+   }
+}

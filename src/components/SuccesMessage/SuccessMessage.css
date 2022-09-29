@@ -1,0 +1,17 @@
+.notify-button{
+   width: 300px;
+   padding: 15px 0px;
+   display: block;
+   margin:  20px auto;
+   border-radius: 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   -ms-border-radius: 15px;
+   -o-border-radius: 15px;
+   border: none;
+   cursor: pointer;
+   font-weight: bold;
+   background: orange;
+   text-transform: uppercase;
+   color: white;
+}
